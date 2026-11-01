@@ -1,0 +1,14 @@
+segment_id,segment_code,segment_name,exclusive_group,is_exclusive,priority,rule_version,rule_params,rule_expression,status,effective_from,effective_to,superseded_by
+SEG-2026-000001,PROSPECT,Prospect (no completed purchase),lifecycle,1,1,1,"{""n_orders_eq"": 0}",n_orders == 0,active,2025-01-01,,
+SEG-2026-000002,NEW,New customer (first order <= 60d),lifecycle,1,2,1,"{""first_order_age_days_max"": 60}",first_order_age_days <= 60,active,2025-01-01,,
+SEG-2026-000003,CHAMPIONS,Champions,lifecycle,1,3,1,"{""f_score_min"": 4, ""m_score_min"": 4, ""r_score_min"": 4}",r_score >= 4 AND f_score >= 4 AND m_score >= 4,active,2025-01-01,,
+SEG-2026-000004,LOYAL,Loyal,lifecycle,1,4,1,"{""f_score_min"": 3, ""r_score_min"": 3}",r_score >= 3 AND f_score >= 3,active,2025-01-01,,
+SEG-2026-000005,AT_RISK,At risk (lapsing frequent buyer),lifecycle,1,5,1,"{""f_score_min"": 3, ""r_score_max"": 2}",r_score <= 2 AND f_score >= 3,active,2025-01-01,,
+SEG-2026-000006,DORMANT,Dormant (> 180 days),lifecycle,1,6,2,"{""recency_days_gt"": 180}",recency_days > 180,active,2026-07-01,,
+SEG-2026-000007,PROMISING,"Promising (recent, low frequency)",lifecycle,1,7,1,"{""r_score_min"": 3}",r_score >= 3,active,2025-01-01,,
+SEG-2026-000008,NEEDS_ATTENTION,Needs attention (catch-all),lifecycle,1,8,1,{},TRUE (catch-all for remaining customers in the exclusive group),active,2025-01-01,,
+SEG-2026-000009,HIGH_SERVICE_COST,High service cost account,overlay,0,20,1,"{""any_of"": [{""cases_12m_min"": 4}, {""service_cost_12m_min"": 120}]}",(cases_12m >= 4) OR (service_cost_12m >= 120),active,2025-01-01,,
+SEG-2026-000010,HIGH_RETURNER,High returner,overlay,0,21,1,"{""n_orders_min"": 3, ""return_rate_min"": 0.3}",return_rate >= 0.3 AND n_orders >= 3,active,2025-01-01,,
+SEG-2026-000011,CONSENT_WITHDRAWN,Consent withdrawn (last 90d),overlay,0,22,1,"{""consent_withdrawals_90d_min"": 1}",consent_withdrawals_90d >= 1,active,2025-01-01,,
+SEG-2026-000012,EMAIL_ENGAGED,Email engaged (>=3 opens in 90d),overlay,0,23,1,"{""opens_90d_min"": 3}",opens_90d >= 3,active,2025-01-01,,
+SEG-2026-000013,DORMANT_V1,Dormant v1 (> 150 days) - superseded,lifecycle,1,6,1,"{""recency_days_gt"": 150}",recency_days > 150,retired,2025-01-01,2026-06-30,SEG-2026-000006

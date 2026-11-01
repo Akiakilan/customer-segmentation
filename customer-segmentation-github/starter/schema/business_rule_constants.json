@@ -1,0 +1,85 @@
+{
+  "rfm_bins": {
+    "R_recency_days": [
+      [
+        30,
+        5
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        120,
+        3
+      ],
+      [
+        240,
+        2
+      ],
+      [
+        1000000000,
+        1
+      ]
+    ],
+    "F_orders": [
+      [
+        10,
+        5
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "M_net_spend_usd": [
+      [
+        1500,
+        5
+      ],
+      [
+        800,
+        4
+      ],
+      [
+        400,
+        3
+      ],
+      [
+        150,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "tax_rate": 0.08,
+  "free_shipping_threshold_usd": 75.0,
+  "shipping_fee_usd": 5.99,
+  "case_cost_per_minute_usd": 1.1,
+  "case_escalation_fee_usd": 25.0,
+  "attribution_window_days": 14,
+  "holdout_rate": 0.1,
+  "snapshot_dates": [
+    "2026-07-01",
+    "2026-10-01"
+  ],
+  "data_window": [
+    "2025-01-01",
+    "2026-09-30"
+  ]
+}

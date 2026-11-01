@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Generated full outputs (recreate with src/generate_data.py)
+output/
+output_*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

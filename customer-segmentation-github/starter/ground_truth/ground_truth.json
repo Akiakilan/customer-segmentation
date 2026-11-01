@@ -1,0 +1,14 @@
+{
+  "description": "Known injected anomalies and expected labels. NOT an input feature source; never joined into input tables.",
+  "anomaly_counts": {
+    "action_violates_consent": 15,
+    "conflicting_exclusive_segments": 12,
+    "outcome_wrong_action": 10,
+    "return_not_netted": 15
+  },
+  "files": [
+    "ground_truth.csv",
+    "ground_truth_customer_labels.csv"
+  ],
+  "total_anomalies": 52
+}

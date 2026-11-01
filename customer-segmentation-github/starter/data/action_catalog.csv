@@ -1,0 +1,10 @@
+action_id,action_code,action_name,purpose,objective,allowed_channels,requires_consent,is_discount,discount_pct,unit_cost,precondition,status,effective_from,effective_to
+ACTN-2026-000001,WELCOME_SERIES,Welcome series & first-repeat nudge,marketing,second_purchase,email|push,1,0,0,0.05,,active,2025-01-01,
+ACTN-2026-000002,FIRST_PURCHASE_INCENTIVE,First-purchase 10% incentive,marketing,first_purchase,email|sms,1,1,10,0.06,,active,2025-01-01,
+ACTN-2026-000003,VIP_EARLY_ACCESS,VIP early access to new range,marketing,repeat_purchase,email|push|sms,1,0,0,0.05,,active,2025-01-01,
+ACTN-2026-000004,LOYALTY_BONUS_POINTS,Loyalty bonus points offer,marketing,repeat_purchase,email|push,1,0,0,0.08,,active,2025-01-01,
+ACTN-2026-000005,CROSS_SELL_BUNDLE,Cross-sell bundle recommendation,marketing,basket_growth,email|push,1,0,0,0.05,,active,2025-01-01,
+ACTN-2026-000006,WINBACK_DISCOUNT,Win-back 15% discount,marketing,reactivation,email|sms,1,1,15,0.06,,active,2025-01-01,
+ACTN-2026-000007,REENGAGEMENT_SURVEY,Re-engagement survey with small incentive,marketing,reactivation,email|push,1,0,0,0.05,,active,2025-01-01,
+ACTN-2026-000008,SERVICE_RECOVERY_CALL,Agent service-recovery call (open complaint in last 30d),service,retention,phone,0,0,0,4.5,complaint or escalated case opened in the 30 days before the decision date,active,2025-01-01,
+ACTN-2026-000009,RETURN_PREVENTION_GUIDE,Size/fit guide & exchange-first offer,marketing,reduce_returns,email,1,0,0,0.05,,active,2025-01-01,

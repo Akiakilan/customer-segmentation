@@ -1,0 +1,314 @@
+{
+ "segment_quality": {
+  "table": [
+   {
+    "seg": "CHAMPIONS",
+    "customers": 289,
+    "pct_bought_next_90d": 0.882,
+    "orders_per_customer": 2.696,
+    "net_spend_per_customer": 270.842,
+    "share_of_customers": 0.062
+   },
+   {
+    "seg": "LOYAL",
+    "customers": 911,
+    "pct_bought_next_90d": 0.586,
+    "orders_per_customer": 1.076,
+    "net_spend_per_customer": 96.429,
+    "share_of_customers": 0.196
+   },
+   {
+    "seg": "AT_RISK",
+    "customers": 274,
+    "pct_bought_next_90d": 0.398,
+    "orders_per_customer": 0.635,
+    "net_spend_per_customer": 56.57,
+    "share_of_customers": 0.059
+   },
+   {
+    "seg": "PROMISING",
+    "customers": 863,
+    "pct_bought_next_90d": 0.363,
+    "orders_per_customer": 0.528,
+    "net_spend_per_customer": 48.186,
+    "share_of_customers": 0.186
+   },
+   {
+    "seg": "NEW",
+    "customers": 395,
+    "pct_bought_next_90d": 0.372,
+    "orders_per_customer": 0.58,
+    "net_spend_per_customer": 45.901,
+    "share_of_customers": 0.085
+   },
+   {
+    "seg": "NEEDS_ATTENTION",
+    "customers": 266,
+    "pct_bought_next_90d": 0.32,
+    "orders_per_customer": 0.451,
+    "net_spend_per_customer": 34.029,
+    "share_of_customers": 0.057
+   },
+   {
+    "seg": "DORMANT",
+    "customers": 1244,
+    "pct_bought_next_90d": 0.155,
+    "orders_per_customer": 0.191,
+    "net_spend_per_customer": 15.743,
+    "share_of_customers": 0.267
+   },
+   {
+    "seg": "PROSPECT",
+    "customers": 409,
+    "pct_bought_next_90d": 0.024,
+    "orders_per_customer": 0.029,
+    "net_spend_per_customer": 1.394,
+    "share_of_customers": 0.088
+   }
+  ],
+  "eta_squared_future_spend_explained_by_segment": 0.2622
+ },
+ "gross_margin_rate_used": 0.4724,
+ "action_performance": [
+  {
+   "action": "CROSS_SELL_BUNDLE",
+   "recommended": 1728,
+   "suppressed": 578,
+   "holdout": 107,
+   "sent": 1043,
+   "open_rate": 0.3135,
+   "click_rate": 0.0527,
+   "treated_conv": 0.1055,
+   "holdout_conv": 0.0654,
+   "abs_lift": 0.04,
+   "lift_ci95": [
+    -0.0104,
+    0.0905
+   ],
+   "z": 1.56,
+   "incremental_orders": 41.8,
+   "incremental_net_revenue": 478.43,
+   "incremental_gross_profit": 226.02,
+   "action_plus_discount_cost": 52.15,
+   "roi": 3.33
+  },
+  {
+   "action": "FIRST_PURCHASE_INCENTIVE",
+   "recommended": 409,
+   "suppressed": 77,
+   "holdout": 31,
+   "sent": 301,
+   "open_rate": 0.2658,
+   "click_rate": 0.0598,
+   "treated_conv": 0.0199,
+   "holdout_conv": 0.0,
+   "abs_lift": 0.0199,
+   "lift_ci95": [
+    0.0041,
+    0.0357
+   ],
+   "z": 2.47,
+   "incremental_orders": 6.0,
+   "incremental_net_revenue": 322.39,
+   "incremental_gross_profit": 152.3,
+   "action_plus_discount_cost": 51.56,
+   "roi": 1.95
+  },
+  {
+   "action": "LOYALTY_BONUS_POINTS",
+   "recommended": 911,
+   "suppressed": 258,
+   "holdout": 63,
+   "sent": 590,
+   "open_rate": 0.3169,
+   "click_rate": 0.0763,
+   "treated_conv": 0.1475,
+   "holdout_conv": 0.1429,
+   "abs_lift": 0.0046,
+   "lift_ci95": [
+    -0.0864,
+    0.0956
+   ],
+   "z": 0.1,
+   "incremental_orders": 2.7,
+   "incremental_net_revenue": -416.12,
+   "incremental_gross_profit": -196.58,
+   "action_plus_discount_cost": 47.2,
+   "roi": -5.16
+  },
+  {
+   "action": "REENGAGEMENT_SURVEY",
+   "recommended": 1510,
+   "suppressed": 291,
+   "holdout": 112,
+   "sent": 1107,
+   "open_rate": 0.2981,
+   "click_rate": 0.0334,
+   "treated_conv": 0.0361,
+   "holdout_conv": 0.0536,
+   "abs_lift": -0.0174,
+   "lift_ci95": [
+    -0.0606,
+    0.0257
+   ],
+   "z": -0.79,
+   "incremental_orders": -19.3,
+   "incremental_net_revenue": 1330.55,
+   "incremental_gross_profit": 628.57,
+   "action_plus_discount_cost": 55.35,
+   "roi": 10.36
+  },
+  {
+   "action": "RETURN_PREVENTION_GUIDE",
+   "recommended": 156,
+   "suppressed": 82,
+   "holdout": 8,
+   "sent": 66,
+   "open_rate": 0.303,
+   "click_rate": 0.0455,
+   "treated_conv": 0.1364,
+   "holdout_conv": 0.125,
+   "abs_lift": 0.0114,
+   "lift_ci95": [
+    -0.2323,
+    0.255
+   ],
+   "z": 0.09,
+   "incremental_orders": 0.7,
+   "incremental_net_revenue": 637.12,
+   "incremental_gross_profit": 300.98,
+   "action_plus_discount_cost": 3.3,
+   "roi": 90.21
+  },
+  {
+   "action": "SERVICE_RECOVERY_CALL",
+   "recommended": 28,
+   "suppressed": 0,
+   "holdout": 0,
+   "sent": 28,
+   "open_rate": 0.3929,
+   "click_rate": 0.0,
+   "note": "no holdout (operational/service action or n too small)",
+   "converted": 0.3214
+  },
+  {
+   "action": "VIP_EARLY_ACCESS",
+   "recommended": 289,
+   "suppressed": 86,
+   "holdout": 26,
+   "sent": 177,
+   "open_rate": 0.3164,
+   "click_rate": 0.1073,
+   "treated_conv": 0.3277,
+   "holdout_conv": 0.3077,
+   "abs_lift": 0.02,
+   "lift_ci95": [
+    -0.1704,
+    0.2104
+   ],
+   "z": 0.21,
+   "incremental_orders": 3.5,
+   "incremental_net_revenue": 208.86,
+   "incremental_gross_profit": 98.67,
+   "action_plus_discount_cost": 8.85,
+   "roi": 10.15
+  },
+  {
+   "action": "WELCOME_SERIES",
+   "recommended": 395,
+   "suppressed": 72,
+   "holdout": 33,
+   "sent": 290,
+   "open_rate": 0.3414,
+   "click_rate": 0.0586,
+   "treated_conv": 0.1241,
+   "holdout_conv": 0.0606,
+   "abs_lift": 0.0635,
+   "lift_ci95": [
+    -0.0263,
+    0.1534
+   ],
+   "z": 1.39,
+   "incremental_orders": 18.4,
+   "incremental_net_revenue": 520.46,
+   "incremental_gross_profit": 245.87,
+   "action_plus_discount_cost": 14.5,
+   "roi": 15.96
+  },
+  {
+   "action": "WINBACK_DISCOUNT",
+   "recommended": 1515,
+   "suppressed": 478,
+   "holdout": 117,
+   "sent": 920,
+   "open_rate": 0.2511,
+   "click_rate": 0.0533,
+   "treated_conv": 0.0522,
+   "holdout_conv": 0.0427,
+   "abs_lift": 0.0094,
+   "lift_ci95": [
+    -0.0299,
+    0.0488
+   ],
+   "z": 0.47,
+   "incremental_orders": 8.7,
+   "incremental_net_revenue": -591.22,
+   "incremental_gross_profit": -279.3,
+   "action_plus_discount_cost": 216.0,
+   "roi": -2.29
+  }
+ ],
+ "suppression_breakdown": {
+  "SUP-001": 1273,
+  "SUP-004": 301,
+  "SUP-002": 293,
+  "SUP-005": 53,
+  "SUP-003": 2
+ },
+ "suppression_breakdown_named": {
+  "NO_VALID_CONSENT": 1273,
+  "PURCHASE_COOLDOWN": 301,
+  "FREQUENCY_CAP": 293,
+  "RETURNER_DISCOUNT_BLOCK": 53,
+  "OPEN_COMPLAINT": 2
+ },
+ "funnel_overall": {
+  "recommendations": 6941,
+  "suppressed": 1922,
+  "holdout": 497,
+  "sent": 4522,
+  "opened": 1341,
+  "clicked": 243,
+  "converted_sent": 403
+ },
+ "compliance": {
+  "marketing_sends": 4494,
+  "consent_violations_injected_and_detected": 15,
+  "consent_compliance_rate": 0.99666,
+  "sends_blocked_for_missing_consent": 1273,
+  "sends_blocked_by_frequency_cap": 293,
+  "memberships_with_explanation_pct": 100.0
+ },
+ "data_quality_detection": [
+  {
+   "issue": "action_violates_consent",
+   "injected": 15
+  },
+  {
+   "issue": "conflicting_exclusive_segments",
+   "injected": 12
+  },
+  {
+   "issue": "outcome_wrong_action",
+   "injected": 10
+  },
+  {
+   "issue": "return_not_netted",
+   "injected": 15
+  }
+ ],
+ "validation": {
+  "passed": 187,
+  "failed": 0
+ }
+}

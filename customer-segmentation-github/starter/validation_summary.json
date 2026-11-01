@@ -1,0 +1,1303 @@
+{
+ "passed": 187,
+ "failed": 0,
+ "info": 29,
+ "results": [
+  {
+   "group": "1 primary keys",
+   "check": "customer PK unique (customer_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=5000"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer ID format ^CUS-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "product PK unique (product_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=60"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "product PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "product ID format ^PRD-\\d{5}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders PK unique (order_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=20000"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders ID format ^ORD-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line PK unique (order_line_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=41901"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line ID format ^ORL-2026-\\d{7}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event PK unique (event_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=100000"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event ID format ^EVT-2026-\\d{7}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case PK unique (case_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=3852"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case ID format ^CASE-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case_event PK unique (case_event_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=8131"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case_event PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case_event ID format ^CEV-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "consent PK unique (consent_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=9493"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "consent PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "consent ID format ^CON-2026-\\d{7}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_rule PK unique (segment_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=13"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_rule PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_rule ID format ^SEG-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer_metric_snapshot PK unique (snapshot_date,customer_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=9651"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer_metric_snapshot PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_membership PK unique (membership_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=7853"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_membership PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_membership ID format ^MEM-SEG-2026-\\d{6}-CUS-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_catalog PK unique (action_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=9"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_catalog PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_catalog ID format ^ACTN-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_segment_eligibility PK unique (eligibility_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=13"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_segment_eligibility PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_segment_eligibility ID format ^ELG-\\d{4}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "suppression_rule PK unique (suppression_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=5"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "suppression_rule PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "suppression_rule ID format ^SUP-\\d{3}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_outcome PK unique (outcome_id)",
+   "status": "PASS",
+   "detail": "duplicates=0 rows=6941"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_outcome PK not null",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_outcome ID format ^OUT-2026-\\d{6}$",
+   "status": "PASS",
+   "detail": "bad=0"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "product required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case_event required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "consent required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_rule required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer_metric_snapshot required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_membership required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_catalog required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_segment_eligibility required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "suppression_rule required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_outcome required fields populated",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "product columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case_event columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "consent columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_rule columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer_metric_snapshot columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "segment_membership columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_catalog columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_segment_eligibility columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "suppression_rule columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "action_outcome columns == data dictionary",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "orders counter gap-free & zero padded",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "engagement_event counter gap-free & zero padded",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "order_line counter gap-free & zero padded",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "customer counter gap-free & zero padded",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "1 primary keys",
+   "check": "support_case counter gap-free & zero padded",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "orders.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 20000"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "order_line.order_id -> orders.order_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 41901"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "order_line.product_id -> product.product_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 41901"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "engagement_event.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 100000"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "engagement_event.product_id -> product.product_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 31939"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "engagement_event.parent_event_id -> engagement_event.event_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 5817"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "engagement_event.action_id -> action_catalog.action_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 6106"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "support_case.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 3852"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "support_case.order_id -> orders.order_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 2133"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "support_case_event.case_id -> support_case.case_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 8131"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "consent.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 9493"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "consent.previous_consent_id -> consent.consent_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 792"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "segment_rule.superseded_by -> segment_rule.segment_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 1"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "customer_metric_snapshot.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 9651"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "segment_membership.segment_id -> segment_rule.segment_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 7853"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "segment_membership.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 7853"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_segment_eligibility.action_id -> action_catalog.action_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 13"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_segment_eligibility.segment_id -> segment_rule.segment_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 13"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.customer_id -> customer.customer_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 6941"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.action_id -> action_catalog.action_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 6941"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.segment_id -> segment_rule.segment_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 6941"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.membership_id -> segment_membership.membership_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 6941"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.suppression_id -> suppression_rule.suppression_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 1922"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.sent_event_id -> engagement_event.event_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 4522"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "action_outcome.attributed_order_id -> orders.order_id",
+   "status": "PASS",
+   "detail": "orphans=0 of 441"
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "segment_membership(evaluated_snapshot_date,customer_id) -> customer_metric_snapshot",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "order_line (order_id,line_number) unique",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "consent (customer,channel,effective_from) unique",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "membership (customer,segment,effective_from) unique",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "2 foreign keys",
+   "check": "no exact-duplicate engagement events",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "3 enums",
+   "check": "all ENUM columns within allowed values (32 columns)",
+   "status": "PASS",
+   "detail": "{}"
+  },
+  {
+   "group": "4 date ordering",
+   "check": "order_ts >= customer.signup_date",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "order_ts inside 2025-01-01..2026-09-30",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "orders only for customer_type=customer",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "every customer_type=customer has >=1 order",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "cancelled_ts > order_ts and set iff cancelled",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "return_date 3..30 days after order",
+   "status": "PASS",
+   "detail": "n_returns=3902"
+  },
+  {
+   "group": "4 date ordering",
+   "check": "return_date <= 2026-09-30",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "return_date/reason present iff returned_quantity>0",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "order lines reference products active at order date",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "case closed_ts > opened_ts; null iff status != closed",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "case.order_id belongs to same customer and precedes case",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "engagement event_ts >= customer signup",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "child event after parent, same customer",
+   "status": "PASS",
+   "detail": "children=5817"
+  },
+  {
+   "group": "4 date ordering",
+   "check": "parent event types follow funnel",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "event ids are time-ordered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "4 date ordering",
+   "check": "order ids are time-ordered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "unit_price == product.list_price",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "discount_amount == round(qty*price*promo%)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "line_net == qty*price - discount",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "refund == line_net * returned_qty / qty",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "order.subtotal == sum(line_net)",
+   "status": "PASS",
+   "detail": "1.1368683772161603e-13"
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "order.discount_total == sum(discount)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "order.refund_total == sum(refund)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "shipping rule (<$75 => $5.99)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "tax == round(8% subtotal)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "order_total == subtotal+shipping+tax",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "net_merchandise == subtotal - refunds (0 if cancelled)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "order.status derived from lines",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "promo_code null iff promo_pct=0",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "case cost == minutes*1.10 + 25*escalated",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "open cases carry no cost/minutes/csat",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-07-01] n_orders/gross/opens/cases/cost/withdrawals recomputed from source",
+   "status": "PASS",
+   "detail": "n_orders mismatches=0"
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-07-01] metric rows where net_monetary/refund do not reconcile to returns",
+   "status": "INFO",
+   "detail": "0 customers"
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-07-01] r_score follows documented bins",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-07-01] m_score follows documented bins (from stored net_monetary)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-07-01] net_monetary == gross - refund in stored row",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-10-01] n_orders/gross/opens/cases/cost/withdrawals recomputed from source",
+   "status": "PASS",
+   "detail": "n_orders mismatches=0"
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-10-01] metric rows where net_monetary/refund do not reconcile to returns",
+   "status": "INFO",
+   "detail": "15 customers"
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-10-01] r_score follows documented bins",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-10-01] m_score follows documented bins (from stored net_monetary)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "[2026-10-01] net_monetary == gross - refund in stored row",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "5 reconciliation",
+   "check": "customer.lifecycle_state derived from source records",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "consent chains start granted and alternate granted/withdrawn",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "consent intervals contiguous, non-overlapping; effective_to == next effective_from",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "consent.previous_consent_id points to previous row in chain",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "consent withdrawals / customers with a withdrawal",
+   "status": "INFO",
+   "detail": "723 rows / 509 customers"
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "support case transitions valid",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "support_case.status == last case event",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "case event timestamps agree with case row (open/escalated/closed)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "membership is_current iff effective_to null; effective_to > effective_from",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "segment rule effective on membership effective_from; retired rules unused",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "customers with >1 current membership in exclusive lifecycle group (DETECTED)",
+   "status": "INFO",
+   "detail": "12"
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "overlapping exclusive-group memberships over time (rows involved)",
+   "status": "INFO",
+   "detail": "24"
+  },
+  {
+   "group": "6 lifecycle",
+   "check": "membership history retained: closed rows exist (not overwritten)",
+   "status": "PASS",
+   "detail": "closed rows=2186"
+  },
+  {
+   "group": "7 segments",
+   "check": "[2026-07-01] rule-engine memberships == re-evaluated rules on stored metrics",
+   "status": "PASS",
+   "detail": "expected=5199 got=5199 missing=0 extra=0"
+  },
+  {
+   "group": "7 segments",
+   "check": "[2026-10-01] rule-engine memberships == re-evaluated rules on stored metrics",
+   "status": "PASS",
+   "detail": "expected=5655 got=5655 missing=0 extra=0"
+  },
+  {
+   "group": "7 segments",
+   "check": "every membership has a non-empty explanation",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "7 segments",
+   "check": "rule-engine explanations cite the rule code",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "7 segments",
+   "check": "every customer in snapshot has exactly one lifecycle segment (rule_engine rows)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "7 segments",
+   "check": "current segment sizes",
+   "status": "INFO",
+   "detail": "{'DORMANT': 1380, 'LOYAL': 990, 'PROMISING': 707, 'PROSPECT': 438, 'AT_RISK': 414, 'NEEDS_ATTENTION': 385, 'CHAMPIONS': 382, 'NEW': 316, 'HIGH_SERVICE_COST': 233, 'HIGH_RETURNER': 212, 'CONSENT_WITHDRAWN': 155, 'EMAIL_ENGAGED': 55}"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "marketing sends without consent at sent_ts (DETECTED)",
+   "status": "INFO",
+   "detail": "15"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "sent events without consent (DETECTED, event level)",
+   "status": "INFO",
+   "detail": "15"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "frequency cap respected (sends in rolling 30d <= cap)",
+   "status": "PASS",
+   "detail": "violations=0"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "service actions exempt from marketing consent; marketing actions carry consent_check",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "suppressed rows have suppression_id and no send; sent rows have send fields",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "scheduled_send_ts after recommended_at",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "outcomes whose action is not eligible for segment (bridge) (DETECTED)",
+   "status": "INFO",
+   "detail": "9"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "outcome.membership matches customer+segment and was valid at decision date",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "SUP-003: no marketing send to customers with unresolved complaint at decision time",
+   "status": "PASS",
+   "detail": "0"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "SUP-004: no non-welcome marketing send within 7d of last order",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "SUP-005: no discount send to HIGH_RETURNER overlay",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "holdout share of otherwise-sendable marketing",
+   "status": "INFO",
+   "detail": "0.100"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "sent_event exists, same customer/timestamp",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "outcome.action_id differs from its sent event action_id (DETECTED)",
+   "status": "INFO",
+   "detail": "10"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "attribution re-derivation (last touch, 14d) matches stored attributed_order_id",
+   "status": "PASS",
+   "detail": "mismatch=0 of 4522"
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "converted_flag == attributed_order_id not null; status consistent",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "attributed order within window after sent_ts",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "8 contact constraints",
+   "check": "revenue_attributed == order net_merchandise_value",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "9 ground truth",
+   "check": "conflicting_exclusive_segments: detection vs ground truth (precision=1.000 recall=1.000)",
+   "status": "PASS",
+   "detail": "injected=12 TP=12 FP=0 FN=0"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "action_violates_consent: detected sent events == injected (precision/recall 1.0)",
+   "status": "PASS",
+   "detail": "injected=15 detected=15"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "action_violates_consent: detected via outcome table == injected outcomes",
+   "status": "PASS",
+   "detail": "detected=15"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "return_not_netted: detection vs ground truth (precision=1.000 recall=1.000)",
+   "status": "PASS",
+   "detail": "injected=15 TP=15 FP=0 FN=0"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "outcome_wrong_action: detection vs ground truth (precision=1.000 recall=1.000)",
+   "status": "PASS",
+   "detail": "injected=10 TP=10 FP=0 FN=0"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "wrong-action rows also violate eligibility bridge (secondary signal)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "9 ground truth",
+   "check": "no unlabelled exclusive-segment conflicts",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "9 ground truth",
+   "check": "no ground-truth / generator-latent columns in input tables",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "group": "9 ground truth",
+   "check": "ground truth entity_ids exist in inputs",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "9 ground truth",
+   "check": "ground truth lives in separate files",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "group": "10 coverage",
+   "check": "new customers (lifecycle_state=new)",
+   "status": "INFO",
+   "detail": "313"
+  },
+  {
+   "group": "10 coverage",
+   "check": "dormant customers",
+   "status": "INFO",
+   "detail": "1593"
+  },
+  {
+   "group": "10 coverage",
+   "check": "prospects",
+   "status": "INFO",
+   "detail": "412"
+  },
+  {
+   "group": "10 coverage",
+   "check": "orders with returns (partial/full)",
+   "status": "INFO",
+   "detail": "3555"
+  },
+  {
+   "group": "10 coverage",
+   "check": "cancelled orders (failure path)",
+   "status": "INFO",
+   "detail": "410"
+  },
+  {
+   "group": "10 coverage",
+   "check": "high-service-cost accounts (current)",
+   "status": "INFO",
+   "detail": "233"
+  },
+  {
+   "group": "10 coverage",
+   "check": "consent withdrawals",
+   "status": "INFO",
+   "detail": "723"
+  },
+  {
+   "group": "10 coverage",
+   "check": "consent re-grants after withdrawal",
+   "status": "INFO",
+   "detail": "69"
+  },
+  {
+   "group": "10 coverage",
+   "check": "suppressed recommendations",
+   "status": "INFO",
+   "detail": "1922"
+  },
+  {
+   "group": "10 coverage",
+   "check": "holdout recommendations",
+   "status": "INFO",
+   "detail": "497"
+  },
+  {
+   "group": "10 coverage",
+   "check": "unresolved support cases at window end",
+   "status": "INFO",
+   "detail": "6"
+  },
+  {
+   "group": "10 coverage",
+   "check": "escalated cases",
+   "status": "INFO",
+   "detail": "433"
+  },
+  {
+   "group": "10 coverage",
+   "check": "segment changes between snapshots (closed memberships, lifecycle)",
+   "status": "INFO",
+   "detail": "2018"
+  },
+  {
+   "group": "10 coverage",
+   "check": "boundary: customers at recency exactly 30/60/120/180 on 2026-10-01",
+   "status": "INFO",
+   "detail": "53"
+  },
+  {
+   "group": "10 coverage",
+   "check": "boundary: customers with first_order_age exactly 60 on 2026-10-01",
+   "status": "INFO",
+   "detail": "0"
+  },
+  {
+   "group": "10 coverage",
+   "check": "boundary: cap=1 customers with suppressed second recommendation",
+   "status": "INFO",
+   "detail": "293"
+  },
+  {
+   "group": "10 coverage",
+   "check": "suppression reasons",
+   "status": "INFO",
+   "detail": "{'SUP-001': 1273, 'SUP-004': 301, 'SUP-002': 293, 'SUP-005': 53, 'SUP-003': 2}"
+  },
+  {
+   "group": "10 coverage",
+   "check": "table row counts",
+   "status": "INFO",
+   "detail": "{'customer': 5000, 'product': 60, 'orders': 20000, 'order_line': 41901, 'action_catalog': 9, 'engagement_event': 100000, 'support_case': 3852, 'support_case_event': 8131, 'consent': 9493, 'segment_rule': 13, 'customer_metric_snapshot': 9651, 'segment_membership': 7853, 'action_segment_eligibility': 13, 'suppression_rule': 5, 'action_outcome': 6941}"
+  }
+ ]
+}

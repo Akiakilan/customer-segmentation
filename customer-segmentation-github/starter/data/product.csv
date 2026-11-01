@@ -1,0 +1,61 @@
+product_id,sku,product_name,category,subcategory,brand,list_price,unit_cost,launch_date,discontinued_date,status
+PRD-00001,SKU-SPO-00001,Brand-H Cycling 1,Sports & Outdoors,Cycling,Brand-H,23.99,13.09,2025-11-01,,active
+PRD-00002,SKU-SPO-00002,Brand-E Cycling 2,Sports & Outdoors,Cycling,Brand-E,48.99,26.91,2023-05-05,,active
+PRD-00003,SKU-GRO-00003,Brand-C Pantry 3,Grocery & Gourmet,Pantry,Brand-C,13.99,6.35,2023-09-03,,active
+PRD-00004,SKU-APP-00004,Brand-D Bottoms 4,Apparel,Bottoms,Brand-D,34.99,18.49,2025-09-08,,active
+PRD-00005,SKU-APP-00005,Brand-A Bottoms 5,Apparel,Bottoms,Brand-A,56.99,29.34,2024-06-18,,active
+PRD-00006,SKU-PET-00006,Brand-H Pet Food 6,Pet Supplies,Pet Food,Brand-H,36.99,20.95,2025-04-27,,active
+PRD-00007,SKU-HOM-00007,Brand-B Storage 7,Home & Kitchen,Storage,Brand-B,46.99,22.15,2023-11-22,,active
+PRD-00008,SKU-GRO-00008,Brand-H Beverages 8,Grocery & Gourmet,Beverages,Brand-H,12.99,7.89,2022-06-05,2025-11-27,discontinued
+PRD-00009,SKU-GRO-00009,Brand-G Beverages 9,Grocery & Gourmet,Beverages,Brand-G,12.99,7.27,2021-11-30,,active
+PRD-00010,SKU-TOY-00010,Brand-A Games 10,Toys & Games,Games,Brand-A,32.99,12.9,2022-04-25,,active
+PRD-00011,SKU-APP-00011,Brand-D Tops 11,Apparel,Tops,Brand-D,62.99,40.21,2022-12-18,,active
+PRD-00012,SKU-TOY-00012,Brand-B Puzzles 12,Toys & Games,Puzzles,Brand-B,20.99,7.62,2021-12-20,,active
+PRD-00013,SKU-SPO-00013,Brand-G Cycling 13,Sports & Outdoors,Cycling,Brand-G,58.99,23.6,2023-01-14,,active
+PRD-00014,SKU-HOM-00014,Brand-H Decor 14,Home & Kitchen,Decor,Brand-H,23.99,13.6,2022-05-14,,active
+PRD-00015,SKU-SPO-00015,Brand-B Camping 15,Sports & Outdoors,Camping,Brand-B,55.99,29.05,2023-01-19,2026-01-01,discontinued
+PRD-00016,SKU-BEA-00016,Brand-H Skincare 16,Beauty,Skincare,Brand-H,43.99,27.77,2025-03-05,,active
+PRD-00017,SKU-GRO-00017,Brand-D Snacks 17,Grocery & Gourmet,Snacks,Brand-D,5.99,2.77,2023-04-11,,active
+PRD-00018,SKU-GRO-00018,Brand-F Snacks 18,Grocery & Gourmet,Snacks,Brand-F,19.99,11.1,2022-04-18,,active
+PRD-00019,SKU-APP-00019,Brand-B Tops 19,Apparel,Tops,Brand-B,82.99,35.7,2025-03-25,2026-03-16,discontinued
+PRD-00020,SKU-SPO-00020,Brand-D Camping 20,Sports & Outdoors,Camping,Brand-D,31.99,12.23,2023-07-10,,active
+PRD-00021,SKU-TOY-00021,Brand-D Puzzles 21,Toys & Games,Puzzles,Brand-D,24.99,10.65,2023-11-15,2025-08-10,discontinued
+PRD-00022,SKU-SPO-00022,Brand-B Cycling 22,Sports & Outdoors,Cycling,Brand-B,24.99,14.84,2021-10-05,,active
+PRD-00023,SKU-BEA-00023,Brand-C Fragrance 23,Beauty,Fragrance,Brand-C,14.99,9.38,2024-01-13,,active
+PRD-00024,SKU-ELE-00024,Brand-B Audio 24,Electronics,Audio,Brand-B,64.99,34.43,2024-01-19,,active
+PRD-00025,SKU-SPO-00025,Brand-C Camping 25,Sports & Outdoors,Camping,Brand-C,79.99,43.19,2023-12-22,,active
+PRD-00026,SKU-HOM-00026,Brand-B Storage 26,Home & Kitchen,Storage,Brand-B,98.99,47.59,2024-03-20,,active
+PRD-00027,SKU-BEA-00027,Brand-C Fragrance 27,Beauty,Fragrance,Brand-C,25.99,14.69,2023-09-09,,active
+PRD-00028,SKU-BEA-00028,Brand-E Fragrance 28,Beauty,Fragrance,Brand-E,20.99,13.35,2022-05-05,,active
+PRD-00029,SKU-ELE-00029,Brand-E Audio 29,Electronics,Audio,Brand-E,135.99,82.61,2024-08-17,,active
+PRD-00030,SKU-APP-00030,Brand-C Tops 30,Apparel,Tops,Brand-C,37.99,21.63,2023-10-11,,active
+PRD-00031,SKU-HOM-00031,Brand-A Cookware 31,Home & Kitchen,Cookware,Brand-A,31.99,12.44,2024-05-30,,active
+PRD-00032,SKU-APP-00032,Brand-G Bottoms 32,Apparel,Bottoms,Brand-G,67.99,34.36,2025-12-16,,active
+PRD-00033,SKU-GRO-00033,Brand-A Pantry 33,Grocery & Gourmet,Pantry,Brand-A,8.99,5.21,2026-03-31,,active
+PRD-00034,SKU-SPO-00034,Brand-F Fitness 34,Sports & Outdoors,Fitness,Brand-F,30.99,16.45,2024-05-06,,active
+PRD-00035,SKU-SPO-00035,Brand-E Fitness 35,Sports & Outdoors,Fitness,Brand-E,45.99,23.94,2026-02-23,,active
+PRD-00036,SKU-BEA-00036,Brand-H Haircare 36,Beauty,Haircare,Brand-H,56.99,28.53,2022-03-26,,active
+PRD-00037,SKU-BEA-00037,Brand-C Skincare 37,Beauty,Skincare,Brand-C,35.99,22.49,2024-08-11,,active
+PRD-00038,SKU-APP-00038,Brand-H Outerwear 38,Apparel,Outerwear,Brand-H,20.99,13.17,2022-08-20,,active
+PRD-00039,SKU-HOM-00039,Brand-E Storage 39,Home & Kitchen,Storage,Brand-E,48.99,29.51,2022-07-29,,active
+PRD-00040,SKU-HOM-00040,Brand-G Decor 40,Home & Kitchen,Decor,Brand-G,104.99,54.4,2023-04-01,2025-04-29,discontinued
+PRD-00041,SKU-BEA-00041,Brand-C Fragrance 41,Beauty,Fragrance,Brand-C,13.99,7.87,2026-03-04,,active
+PRD-00042,SKU-GRO-00042,Brand-A Snacks 42,Grocery & Gourmet,Snacks,Brand-A,28.99,13.61,2023-09-03,,active
+PRD-00043,SKU-PET-00043,Brand-C Pet Accessories 43,Pet Supplies,Pet Accessories,Brand-C,25.99,10.7,2023-10-30,,active
+PRD-00044,SKU-ELE-00044,Brand-D Audio 44,Electronics,Audio,Brand-D,71.99,33.54,2022-03-19,,active
+PRD-00045,SKU-HOM-00045,Brand-A Decor 45,Home & Kitchen,Decor,Brand-A,27.99,11.68,2023-07-17,,active
+PRD-00046,SKU-ELE-00046,Brand-E Accessories 46,Electronics,Accessories,Brand-E,65.99,39.01,2021-09-26,,active
+PRD-00047,SKU-BEA-00047,Brand-A Skincare 47,Beauty,Skincare,Brand-A,48.99,22.48,2023-05-28,,active
+PRD-00048,SKU-BEA-00048,Brand-A Haircare 48,Beauty,Haircare,Brand-A,19.99,12.8,2024-02-13,,active
+PRD-00049,SKU-SPO-00049,Brand-F Fitness 49,Sports & Outdoors,Fitness,Brand-F,42.99,27.29,2023-09-06,,active
+PRD-00050,SKU-APP-00050,Brand-G Bottoms 50,Apparel,Bottoms,Brand-G,87.99,33.96,2026-03-30,,active
+PRD-00051,SKU-HOM-00051,Brand-A Decor 51,Home & Kitchen,Decor,Brand-A,10.99,6.41,2022-09-15,,active
+PRD-00052,SKU-APP-00052,Brand-G Bottoms 52,Apparel,Bottoms,Brand-G,64.99,35.92,2024-06-28,2025-06-30,discontinued
+PRD-00053,SKU-PET-00053,Brand-A Pet Accessories 53,Pet Supplies,Pet Accessories,Brand-A,22.99,14.38,2024-11-27,,active
+PRD-00054,SKU-HOM-00054,Brand-F Storage 54,Home & Kitchen,Storage,Brand-F,20.99,11.35,2024-08-10,2025-11-20,discontinued
+PRD-00055,SKU-ELE-00055,Brand-F Wearables 55,Electronics,Wearables,Brand-F,48.99,18.19,2024-09-01,,active
+PRD-00056,SKU-PET-00056,Brand-A Pet Accessories 56,Pet Supplies,Pet Accessories,Brand-A,33.99,14.26,2024-06-05,,active
+PRD-00057,SKU-SPO-00057,Brand-B Fitness 57,Sports & Outdoors,Fitness,Brand-B,60.99,37.63,2022-08-21,,active
+PRD-00058,SKU-APP-00058,Brand-A Tops 58,Apparel,Tops,Brand-A,33.99,19.66,2022-04-15,,active
+PRD-00059,SKU-BEA-00059,Brand-H Fragrance 59,Beauty,Fragrance,Brand-H,25.99,14.14,2024-08-25,,active
+PRD-00060,SKU-HOM-00060,Brand-H Cookware 60,Home & Kitchen,Cookware,Brand-H,44.99,18.51,2023-05-27,2025-08-19,discontinued

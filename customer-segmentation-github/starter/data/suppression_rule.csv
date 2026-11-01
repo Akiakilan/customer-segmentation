@@ -1,0 +1,6 @@
+suppression_id,suppression_code,description,evaluation_point,applies_to
+SUP-001,NO_VALID_CONSENT,Marketing action needs a granted consent row for the chosen channel at scheduled send time; no allowed channel has one.,send,marketing
+SUP-002,FREQUENCY_CAP,Marketing contacts sent in the previous 30 days + this one would exceed customer.max_marketing_contacts_per_30d.,send,marketing
+SUP-003,OPEN_COMPLAINT,Customer has a complaint/escalated support case still unresolved at decision time.,decision,marketing
+SUP-004,PURCHASE_COOLDOWN,Post-purchase quiet period: marketing actions other than WELCOME_SERIES are blocked if the customer ordered within 7 days before decision time.,decision,marketing (except welcome)
+SUP-005,RETURNER_DISCOUNT_BLOCK,Discount actions are blocked for customers in the HIGH_RETURNER overlay segment.,decision,marketing discount

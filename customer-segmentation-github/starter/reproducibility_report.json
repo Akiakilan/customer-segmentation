@@ -1,0 +1,23 @@
+{
+  "seed": 20261022,
+  "parameters": {
+    "n_customers": 5000,
+    "n_orders": 20000,
+    "n_events": 100000,
+    "scale": 0.1
+  },
+  "runs": [
+    {
+      "run": 1,
+      "identical_to_reference": true,
+      "differing_files": []
+    },
+    {
+      "run": 2,
+      "identical_to_reference": true,
+      "differing_files": []
+    }
+  ],
+  "reference": "/mnt/data/customer-segmentation-github/starter",
+  "all_runs_identical": true
+}

@@ -1,0 +1,53 @@
+gt_id,issue_type,entity,entity_id,customer_id,related_entity_id,expected_value,observed_value
+GT-00001,action_violates_consent,action_outcome,OUT-2026-000637,CUS-004413,EVT-2026-0080784,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00002,action_violates_consent,action_outcome,OUT-2026-000919,CUS-001009,EVT-2026-0081163,no granted email consent at send time (never_granted) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00003,action_violates_consent,action_outcome,OUT-2026-001023,CUS-003859,EVT-2026-0081254,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00004,action_violates_consent,action_outcome,OUT-2026-001048,CUS-003028,EVT-2026-0081279,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00005,action_violates_consent,action_outcome,OUT-2026-001240,CUS-001256,EVT-2026-0081495,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00006,action_violates_consent,action_outcome,OUT-2026-002172,CUS-003215,EVT-2026-0082604,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00007,action_violates_consent,action_outcome,OUT-2026-002215,CUS-000822,EVT-2026-0082651,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00008,action_violates_consent,action_outcome,OUT-2026-003079,CUS-002869,EVT-2026-0083631,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00009,action_violates_consent,action_outcome,OUT-2026-003103,CUS-002282,EVT-2026-0083649,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00010,action_violates_consent,action_outcome,OUT-2026-003783,CUS-002545,EVT-2026-0084412,no granted email consent at send time (never_granted) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00011,action_violates_consent,action_outcome,OUT-2026-003848,CUS-000368,EVT-2026-0084482,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00012,action_violates_consent,action_outcome,OUT-2026-003917,CUS-004258,EVT-2026-0084551,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00013,action_violates_consent,action_outcome,OUT-2026-003923,CUS-001101,EVT-2026-0084557,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00014,action_violates_consent,action_outcome,OUT-2026-004266,CUS-001352,EVT-2026-0084977,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00015,action_violates_consent,action_outcome,OUT-2026-004497,CUS-000556,EVT-2026-0085231,no granted email consent at send time (withdrawn) => must be suppressed (SUP-001),sent via email; consent_check logged as granted
+GT-00016,outcome_wrong_action,action_outcome,OUT-2026-001064,CUS-001398,EVT-2026-0081290,ACTN-2026-000004,ACTN-2026-000008
+GT-00017,outcome_wrong_action,action_outcome,OUT-2026-001779,CUS-004060,EVT-2026-0082124,ACTN-2026-000005,ACTN-2026-000008
+GT-00018,outcome_wrong_action,action_outcome,OUT-2026-001797,CUS-001642,EVT-2026-0082144,ACTN-2026-000003,ACTN-2026-000001
+GT-00019,outcome_wrong_action,action_outcome,OUT-2026-002014,CUS-000424,EVT-2026-0082459,ACTN-2026-000006,ACTN-2026-000008
+GT-00020,outcome_wrong_action,action_outcome,OUT-2026-002507,CUS-004109,EVT-2026-0082953,ACTN-2026-000005,ACTN-2026-000009
+GT-00021,outcome_wrong_action,action_outcome,OUT-2026-003331,CUS-004335,EVT-2026-0083974,ACTN-2026-000005,ACTN-2026-000006
+GT-00022,outcome_wrong_action,action_outcome,OUT-2026-004265,CUS-001678,EVT-2026-0084976,ACTN-2026-000004,ACTN-2026-000001
+GT-00023,outcome_wrong_action,action_outcome,OUT-2026-005257,CUS-002025,EVT-2026-0086917,ACTN-2026-000006,ACTN-2026-000002
+GT-00024,outcome_wrong_action,action_outcome,OUT-2026-005502,CUS-003342,EVT-2026-0087367,ACTN-2026-000006,ACTN-2026-000007
+GT-00025,outcome_wrong_action,action_outcome,OUT-2026-005902,CUS-003318,EVT-2026-0087996,ACTN-2026-000005,ACTN-2026-000009
+GT-00026,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000001-CUS-000398,CUS-000398,MEM-SEG-2026-000005-CUS-000398,single lifecycle segment: AT_RISK,also member of PROSPECT (exclusive group lifecycle)
+GT-00027,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000008-CUS-000725,CUS-000725,MEM-SEG-2026-000006-CUS-000725,single lifecycle segment: DORMANT,also member of NEEDS_ATTENTION (exclusive group lifecycle)
+GT-00028,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000008-CUS-000818,CUS-000818,MEM-SEG-2026-000003-CUS-000818,single lifecycle segment: CHAMPIONS,also member of NEEDS_ATTENTION (exclusive group lifecycle)
+GT-00029,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000002-CUS-001155,CUS-001155,MEM-SEG-2026-000008-CUS-001155,single lifecycle segment: NEEDS_ATTENTION,also member of NEW (exclusive group lifecycle)
+GT-00030,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000002-CUS-002155,CUS-002155,MEM-SEG-2026-000006-CUS-002155,single lifecycle segment: DORMANT,also member of NEW (exclusive group lifecycle)
+GT-00031,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000003-CUS-002512,CUS-002512,MEM-SEG-2026-000001-CUS-002512,single lifecycle segment: PROSPECT,also member of CHAMPIONS (exclusive group lifecycle)
+GT-00032,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000002-CUS-003045,CUS-003045,MEM-SEG-2026-000007-CUS-003045,single lifecycle segment: PROMISING,also member of NEW (exclusive group lifecycle)
+GT-00033,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000004-CUS-003320,CUS-003320,MEM-SEG-2026-000006-CUS-003320,single lifecycle segment: DORMANT,also member of LOYAL (exclusive group lifecycle)
+GT-00034,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000006-CUS-003687,CUS-003687,MEM-SEG-2026-000008-CUS-003687,single lifecycle segment: NEEDS_ATTENTION,also member of DORMANT (exclusive group lifecycle)
+GT-00035,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000001-CUS-003781,CUS-003781,MEM-SEG-2026-000004-CUS-003781,single lifecycle segment: LOYAL,also member of PROSPECT (exclusive group lifecycle)
+GT-00036,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000006-CUS-004610,CUS-004610,MEM-SEG-2026-000001-CUS-004610,single lifecycle segment: PROSPECT,also member of DORMANT (exclusive group lifecycle)
+GT-00037,conflicting_exclusive_segments,segment_membership,MEM-SEG-2026-000006-CUS-004852,CUS-004852,MEM-SEG-2026-000002-CUS-004852,single lifecycle segment: NEW,also member of DORMANT (exclusive group lifecycle)
+GT-00038,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-000171,CUS-000171,,net_monetary=587.81,net_monetary=787.76 (returns not netted)
+GT-00039,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-000193,CUS-000193,,net_monetary=306.89,net_monetary=449.85 (returns not netted)
+GT-00040,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-001497,CUS-001497,,net_monetary=794.43,net_monetary=934.41 (returns not netted)
+GT-00041,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-001535,CUS-001535,,net_monetary=1091.20,net_monetary=1214.17 (returns not netted)
+GT-00042,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-001722,CUS-001722,,net_monetary=422.91,net_monetary=588.87 (returns not netted)
+GT-00043,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-001730,CUS-001730,,net_monetary=561.59,net_monetary=651.27 (returns not netted)
+GT-00044,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-002231,CUS-002231,,net_monetary=189.96,net_monetary=252.95 (returns not netted)
+GT-00045,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-002448,CUS-002448,,net_monetary=178.24,net_monetary=320.68 (returns not netted)
+GT-00046,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-002560,CUS-002560,,net_monetary=159.95,net_monetary=224.94 (returns not netted)
+GT-00047,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-002763,CUS-002763,,net_monetary=1097.02,net_monetary=1423.75 (returns not netted)
+GT-00048,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-002960,CUS-002960,,net_monetary=411.88,net_monetary=508.85 (returns not netted)
+GT-00049,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-003434,CUS-003434,,net_monetary=1332.68,net_monetary=1936.53 (returns not netted)
+GT-00050,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-003455,CUS-003455,,net_monetary=1307.62,net_monetary=1817.55 (returns not netted)
+GT-00051,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-003826,CUS-003826,,net_monetary=0.00,net_monetary=67.99 (returns not netted)
+GT-00052,return_not_netted,customer_metric_snapshot,2026-10-01|CUS-003972,CUS-003972,,net_monetary=464.45,net_monetary=530.44 (returns not netted)
